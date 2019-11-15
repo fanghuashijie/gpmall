@@ -1,0 +1,5 @@
+FROM openjdk:8
+MAINTAINER lizongfang
+LABEL name="dockerfile-demo" version="1.0" author="lizongfang"
+CMD ["java","-jar","dockerfile-image.jar"]
+
